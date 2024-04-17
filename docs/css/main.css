@@ -848,6 +848,10 @@ body {
     width: 100%;
 }
 
+.header__nav .menu>.menu-item.prim a {
+    background: radial-gradient(circle at 50% -50%, rgb(223, 246, 255) 0%, rgb(125, 197, 239) 100%) !important;
+}
+
 .header__nav .menu>.menu-item>a {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
@@ -1032,6 +1036,10 @@ body {
 
 .mobile-menu__nav .menu>.menu-item {
     display: block;
+}
+
+.mobile-menu__nav .menu>.menu-item.prim a {
+    background: radial-gradient(circle at 50% -50%, rgb(223, 246, 255) 0%, rgb(125, 197, 239) 100%) !important;
 }
 
 .mobile-menu__nav .menu>.menu-item>a {
